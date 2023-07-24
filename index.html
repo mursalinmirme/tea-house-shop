@@ -21,9 +21,15 @@
               boxShadow: {
                 'my-custom-shadow': '0px 7px 50px 0px rgba(0, 0, 0, 0.06)'
               },
+              backgroundColor: {
+                'layout2-bg': 'rgba(230, 166, 35, 0.10)',
+                'layout3-bg': 'rgba(87, 118, 57, 0.10)'
+              },
               backgroundImage:{
                 'custom-gradient-bg': 'linear-gradient(270deg, #F00 0%, #FF8938 100%)',
-                'tea-bg-gradient': 'linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%)'
+                'tea-bg-gradient': 'linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%)',
+                'layout1-bg': 'linear-gradient(270deg, #FF8938 0%, #F00 100%)',
+                'layout4-bg': 'linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0.00) 100%)',
               }
             }
           }
@@ -110,6 +116,35 @@
             </div>
           </div>
 
+        </div>
+      </section>
+      <!-- presentation section -->
+      <section class="mt-14">
+        <!-- presentation container -->
+        <div class="flex gap-10">
+          <!-- presentation grid elements -->
+          <div class="flex-1">
+            <!-- grid contaienr -->
+            <div class="grid grid-cols-2 grid-rows-3 gap-6">
+              <div class="bg-layout1-bg rounded-lg opacity-10"></div>
+              <div class="bg-layout2-bg row-span-2 flex p-8 items-center justify-center rounded-lg"><img src="images/fresh-1.png" alt=""></div>
+              <div class="bg-layout3-bg row-span-2 p-8 flex items-center justify-center rounded-lg"><img src="images/fresh-2.png" alt=""></div>
+              <div class="bg-layout4-bg rounded-lg"></div>
+            </div>
+          </div>
+          <!-- presentation contents -->
+          <div class="flex-1">
+            <h3 class="text-4xl font-extrabold leading-snug">Great Tea, Freshly <br> Presented</h3>
+            <p class="text-base font-medium text-my-primary-color mt-4 pr-12 leading-7">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+            <div class="mt-6">
+              <h5 class="text-xl font-extrabold">Unique Taste</h5>
+              <p class="text-base font-medium text-my-primary-color mt-3 w-3/4">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+            </div>
+            <div class="mt-6">
+              <h5 class="text-xl font-extrabold">Premium Quality</h5>
+              <p class="text-base font-medium text-my-primary-color mt-3 w-3/4">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
