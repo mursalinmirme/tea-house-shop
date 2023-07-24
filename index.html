@@ -7,10 +7,140 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6d208b1cbc.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'my-primary-color': '#777777'
+              },
+              boxShadow: {
+                'my-custom-shadow': '0px 7px 50px 0px rgba(0, 0, 0, 0.06)'
+              },
+              backgroundImage:{
+                'custom-gradient-bg': 'linear-gradient(270deg, #F00 0%, #FF8938 100%)',
+                'tea-bg-gradient': 'linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%)'
+              }
+            }
+          }
+        }
+      </script>
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    
+<body class="font-manrope">
+    <!-- header start -->
+    <header>
+        <div class="max-w-screen-xl mx-auto py-16">
+            <div class="hero">
+                <div class="hero-content flex-col items-center lg:flex-row-reverse">
+                  <div class="relative">
+                    <img src="/images/banner.png" class="max-w-xl" />
+                    <div class="absolute bottom-4 left-14 bg-white flex gap-3 items-center w-64 py-5 px-6 rounded-xl shadow-my-custom-shadow">
+                      <i class="fa-solid fa-star text-3xl text-[#FFC850]"></i>
+                      <div>
+                        <h3 class="text-3xl font-extrabold">5.00</h3>
+                        <p class="text-base font-semibold text-my-primary-color">Trust Pilot Ratings</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h1 class="text-7xl font-extrabold leading-tight">It's good<br>
+                      tea time at The <br> Tea House</h1>
+                    <p class="py-6 w-3/4 text-[#777] font-medium leading-7 text-lg">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                    <button class="btn text-white bg-custom-gradient-bg border-none outline-none text-base">Explore More<i class="fa-solid fa-arrow-up-long rotate-45"></i></button>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </header>
+    <!-- main section -->
+    <main class="max-w-screen-xl mx-auto">
+      <!-- Featured products section -->
+      <section class="mt-10">
+        <h2 class="text-4xl font-extrabold text-center">Our Featured Products</h2>
+        <p class="text-base w-4/6 mt-4 text-center mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        <!-- featured products grid container -->
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+          <!-- single featured item 1 -->
+          <div class="card bg-tea-bg-gradient">
+            <figure class="px-10 pt-10">
+              <img src="/images/tea-1.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-2xl font-extrabold mt-1">Milk Tea</h2>
+              <p class="text-base font-semibold text-my-primary-color">Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- single featured item 2 -->
+          <div class="card bg-tea-bg-gradient">
+            <figure class="px-10 pt-10">
+              <img src="/images/tea-2.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-2xl font-extrabold mt-1">Black Tea</h2>
+              <p class="text-base font-semibold text-my-primary-color">Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- single featured item 3 -->
+          <div class="card bg-tea-bg-gradient">
+            <figure class="px-10 pt-10">
+              <img src="/images/tea-3.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-2xl font-extrabold mt-1">Lemon Tea</h2>
+              <p class="text-base font-semibold text-my-primary-color">Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- single featured item 4 -->
+          <div class="card bg-tea-bg-gradient">
+            <figure class="px-10 pt-10">
+              <img src="/images/tea-4.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-2xl font-extrabold mt-1">Green Tea</h2>
+              <p class="text-base font-semibold text-my-primary-color">Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+    <!-- footer section -->
+    <footer>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    </footer>
 </body>
 </html>
